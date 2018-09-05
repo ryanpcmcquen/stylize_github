@@ -1,15 +1,15 @@
 {
     "manifest_version": 2,
 
-    "name": "Stylize Expo",
-    "description": "Tweaks the styling of the https://expo.io environment.",
-    "version": "0.1.2",
+    "name": "Stylize GitHub",
+    "description": "Tweaks the styling of https://github.com.",
+    "version": "0.1.0",
 
     "content_scripts": [
         {
             "run_at": "document_end",
-            "matches": ["https://*.expo.io/", "https://*.expo.io/*"],
-            "js": ["stylizeExpo.js"]
+            "matches": ["https://*.github.com/", "https://*.github.com/*"],
+            "js": ["stylizeGitHub.js"]
         }
     ]
 }

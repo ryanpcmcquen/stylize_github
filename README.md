@@ -1,6 +1,6 @@
-# Stylize Expo
+# Stylize GitHub
 
-This changes some styling for https://expo.io.
+This changes some styling for https://github.com.
 
 The current changes are:
 

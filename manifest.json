@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Stylize Expo",
+    "description": "Tweaks the styling of the https://expo.io environment.",
+    "version": "0.1.2",
+
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": ["https://*.expo.io/", "https://*.expo.io/*"],
+            "js": ["stylizeExpo.js"]
+        }
+    ]
+}

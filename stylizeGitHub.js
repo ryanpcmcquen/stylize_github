@@ -3,7 +3,7 @@
     const stylizeIt = () => {
         const styleBlock = document.createElement('style');
         styleBlock.innerHTML = `
-            .view-lines {
+            body, .blob-code, div, pre {
                 font-family: 'IBM Plex Mono', NovaMono, monospace !important;
             }
         `;
